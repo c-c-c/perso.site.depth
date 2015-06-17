@@ -1,0 +1,131 @@
+ body{
+                margin: 0;
+                background: white;
+                color: #2A2A2A;
+                overflow:hidden;
+                height: 100%;
+                font-family: Montserrat;
+            }
+            
+            a{
+                text-decoration: none;
+                color: #2A2A2A;
+            }
+            
+            canvas{
+                background: white;
+            }
+            
+            #huh{
+                position: absolute;
+                z-index: 999;
+                bottom: 20px;
+                right: 20px;
+                font-size: 25px;
+                font-weight: bold;
+                text-decoration: none;
+                color: #2A2A2A;
+            }
+            
+            #about{
+                position: absolute;
+                z-index: 99;
+                font-size: 40px;
+                line-height: 60px;
+                top: 50%;
+                margin-top: -240px;
+                width: 100%;
+                text-align: center;
+                opacity: 0;
+                -webkit-transition: opacity 1s;
+                pointer-events: none;
+            }
+            
+            #about.active{
+                opacity: 1;
+                pointer-events: visible;
+                -webkit-transition: opacity 1s 1s;
+            }
+            
+            #about a{
+	            transition: color 0.2s;
+            }
+            
+            #about a:hover{
+	            color: #36f3b8
+            }
+            
+            #caption{
+                position: absolute;
+                bottom: 20px;
+                letter-spacing: 1px;
+                left: 20px;
+                width: 400px;
+                z-index: 999;
+                color: #2A2A2A;
+            }
+            
+            #pre{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-left: -180px;
+                margin-top: -112px;
+                z-index: -1;
+            }
+
+            #my-nav {
+                position: fixed;
+                top:0; right: 0;
+                /*background-color: white;*/
+                /*border: 2px dashed pink;*/
+                opacity: 1;
+                height:100px;
+                width:100%;
+            }
+
+            ul {
+                list-style-type: none;
+                position: fixed;
+                  top: 26px;
+                  left: 390px;
+
+            }
+
+            li {
+                display: inline;
+                padding: 10px;
+
+
+            }
+
+            .underline {
+                border-bottom: 4px solid #ff5185;
+
+            }
+
+            #gsp-logo {
+                position: fixed;
+                top: -30px;
+            }
+
+    
+
+            li:hover {
+                color:white;
+                background-color: #58585b;
+                border-radius:3px;
+                border-bottom: 1px solid white
+                
+            }
+
+            i.fa.fa-envelope-o:hover {
+                background-color:#ff5185;
+                padding:20px;
+                border-radius:50%;
+                color:white;
+            }
+
+
+
+
